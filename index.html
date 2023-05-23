@@ -8,7 +8,7 @@
     
     <title>Pages</title>
      <!--Favicon-->
-    <link href="imagenes/standard_js.png" rel="icon">
+    <link href="imagenes/code.jpg" rel="icon">
 
     <!--Iconos de Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -23,9 +23,9 @@
 
         <!--Google Fonts-->
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
    <!--Barra de navegacion--> 
@@ -37,20 +37,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
         <a class="navbar-brand" href="#">
-          <img src="imagenes/standard_js.png"  width="50" alt=" logo de la pagina web ">
+          <img src="imagenes/lav.png"  width="50" alt=" logo de la pagina web ">
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#Proyecto">Proyectos</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link " href="#">Testimonios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Contacto</a>
+            <a class="nav-link " href="#Contacto ">Contacto</a>
           </li>
         </ul>
         
@@ -64,7 +62,7 @@
      
     <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
 
-        <img  class="hero-imagen-desarrollador rounded-circle" src="imagenes/standard_js.png" alt="foto de carlos ">
+        <img  class="hero-imagen-desarrollador rounded-circle" src="imagenes/code.jpg" alt="foto de carlos ">
 
 
        <h1>Hola, soy Carlos Núñez</h1> 
@@ -73,14 +71,14 @@
     </div>
 
     <div class="hero.inferior">
-      <img class="hero-inferior-imagen img-fluid" src="imagenes/favicon.png" alt="imagenuno,imagenes">
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/programacion.png" alt="imagenuno,imagenes">
 
     </div>
   </section>
 
   <!--Sobre mi -->
 
-  <section class="sobre-mi seccion-oscura">
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
 
     <div class="contenedor">
       <h2 class="seccion-titulo ">Conoce a Carlos</h2>
@@ -103,26 +101,14 @@
         <span class="badge text-bg-primary">HTML</span>
         <span class="badge text-bg-primary">CSS</span>
         <span class="badge text-bg-primary">JavaScript</span>
-        <span class="badge text-bg-primary">React</span>
+       
        </div>
       </div>
-      <!--Articulos-->
-
-      <div class="columna col-12 col-md-4">
-        <i class="bi bi-laptop"></i>
-       <p class="experiencia-titulo">Articulos</p>
-       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, debitis!</p>
-       <div class="badges-contenedor">
-        <span class="badge text-bg-primary">Escribir</span>
-        <span class="badge text-bg-primary">Editar</span>
-        <span class="badge text-bg-primary">Blogs</span>
         
-       </div>
-      </div>
-      <!--Estudiantes-->
+      <!--Estudiante-->
        <div class="columna col-12 col-md-4">
         <i class="bi bi-laptop"></i>
-       <p class="experiencia-titulo">Estudiantes </p>
+       <p class="experiencia-titulo">Estudiante </p>
        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, debitis!</p>
        <div class="badges-contenedor">
         <span class="badge text-bg-primary">Desarollo Web </span>
@@ -131,6 +117,19 @@
        
        </div>
        </div>
+          
+       <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+       <p class="experiencia-titulo">Articulos </p>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, debitis!</p>
+       <div class="badges-contenedor">
+        <span class="badge text-bg-primary">Editar</span>
+        <span class="badge text-bg-primary">Blogs</span>
+        <span class="badge text-bg-primary">Escribir</span>
+       
+       </div>
+      </div>
+
     </div>
 
    </div>
@@ -138,7 +137,7 @@
 
   <!--Proyectos-->
 
-  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+  <section id="Proyecto" class="proyectos-recientes seccion-clara d-flex flex-column">
     <h2 class="seccion-titulo texto-negro">Mis Proyectos </h2>
     <h3 class="seccion-descripcion">Estos son algunos proyectos que e creado recientemente</h3>
 
@@ -274,7 +273,64 @@
   </a>
   </section>
 
+  <!-- Contacto -->
+    <section id="Contacto" class="contacto seccion-oscura">
 
+      <div class="container">
+        <div class="container text-center rectangulo d-flex  justify-content-evenly">
+         <div class="row">
+               <div class="col-12 col-md-4 seccion-titulo">
+                ¡Hablemos!
+
+               </div>
+               <div class="col-12 col-md-4 descripcion">
+                Contactamen para iniciar tu proyecto de desarrollo web 
+
+               </div>
+               <div class="col-12 col-md-4">
+                <a href="">
+                  <button type="button">
+                    contacto
+                    <i class="bi bi-envelope-check-fill"></i>
+
+                  </button>
+
+                </a>
+
+               </div>
+         </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- Pie de pagina -->
+ <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-logo" src="imagenes/prom.jpg" alt="logo del portafolio">
+  <p class="footer-texto text-center"> Aprendo y creo todos los dias. <br> Creemos un proyecto Juntos </p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+   <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-facebook"></i>
+
+   </a>
+
+   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-twitter"></i>
+
+   </a>
+
+   <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+
+   </a>
+
+   <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-instagram"></i>
+
+   </a>
+  </div>
+  <div>Creado por Carlos Núñez (2023) &#169;</div>
+ </footer>
    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
